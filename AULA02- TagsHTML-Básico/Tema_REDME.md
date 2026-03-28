@@ -34,9 +34,10 @@
         - ✔ Use apenas 1 <h1> por página
         - ✔ Siga a ordem (h1 → h2 → h3…)
         - ❌ Não use só pelo tamanho
+
 - **`<p>`:** Blocos de texto.
-    - -💡 Dica: 👉 Cada ideia → um parágrafo
-        - 🧪 Exemplo 
+    - 💡 Dica: 👉 Cada ideia → um parágrafo
+        🧪 Exemplo 
         ```html
             <p>Estou aprendendo HTML.</p>
         ```
@@ -98,7 +99,7 @@
             <p>
                 A versão atual é <del>1.0</del> <ins>2.0</ins>
             </p>
-        ```html
+        ```
 
     - Documentação / revisão
         ```html
@@ -106,7 +107,7 @@
                 O prazo é de <del datetime="2026-01-01">5 dias</del>
                 <ins datetime="2026-03-28">3 dias</ins>
             </p>
-        ```html
+        ```
 
 ---
 ## 🛠 Exemplos Práticos
