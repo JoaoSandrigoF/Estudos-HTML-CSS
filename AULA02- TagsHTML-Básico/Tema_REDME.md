@@ -1,4 +1,4 @@
-# 📚 Aula: [Tags Textuais HTML]
+# 📚 Aula02: [Tags Textuais HTML]
 
 ## 🗓 Data [28/03/2026]
 
@@ -23,31 +23,32 @@
 ---
 
 ## 💡 Tags
-- **(`<h1>`até`<h6>`) Títulos:** Representam hierarquia de títulos na página.
-    - Ex.:
-    ```html 
-        <h1>Título principal</h1>
-        <h2>Subtítulo</h2>
-        <h3>Subseção</h3>
-    ```
-    - ⚠️ Boas práticas
-        - ✔ Use apenas 1 ``<h1>`` por página
-        - ✔ Siga a ordem (h1 → h2 → h3…)
-        - ❌ Não use só pelo tamanho
+- **(`<h1>`até`<h6>`) Títulos:** Representam hierarquia de títulos na página.   
+Ex.:
+```html 
+    <h1>Título principal</h1>
+    <h2>Subtítulo</h2>
+    <h3>Subseção</h3>
+```
 
-- **`<p>`:** Blocos de texto.
-    - 💡 Dica: 👉 Cada ideia → um parágrafo
-    - 🧪 Exemplo 
-    ```html
-        <p>Estou aprendendo HTML.</p>
-    ```
+- ⚠️ Boas práticas   
+    ✔ Use apenas 1 ``<h1>`` por página   
+    ✔ Siga a ordem (h1 → h2 → h3…)   
+    ❌ Não use só pelo tamanho
+
+- **`<p>`:** Blocos de texto.   
+💡 Dica: 👉 Cada ideia → um parágrafo   
+🧪 Exemplo 
+```html
+    <p>Estou aprendendo HTML.</p>
+```
 ---
 
-- FORMATAÇÃO BÁSICA DE TEXTOS
-    - **`<strong>`:** importância
-    - **`<em>`:** Ênfase
-    - **`<mark>`:** "Marcador" de texto - semelhante ao marcador de texto físico
-    - **`<small>`:** Texto secundário - fica num tamanho menor
+- FORMATAÇÃO BÁSICA DE TEXTOS   
+`<strong>`: importância   
+`<em>`: Ênfase   
+`<mark>`: "Marcador" de texto - semelhante ao marcador de texto físico   
+`<small>`: Texto secundário - fica num tamanho menor
 ---
 
 - PROPRIEDADES DE USO AVANÇADO `<ins>` e `<del>`
