@@ -61,27 +61,27 @@
             <del datetime="2026-01-10"> Texto antigo </del>
 
             <p><small>- Formato correto e ano-mês-Dica <small></p>
-            <p><small>- - `<ins">`texto descritivo sobre a alteração`</ins>` <small></p>
+            <p><small>- <ins">texto descritivo sobre a alteração`</ins>` <small></p>
         ```
 
-        - 🎯 Quando usar  
-        ✔ Sistemas com histórico  
-        ✔ Conteúdo atualizado  
-        ✔ Auditoria de mudanças
+        - 🎯 Quando usar\  
+            ✔ Sistemas com histórico\  
+            ✔ Conteúdo atualizado\ 
+            ✔ Auditoria de mudanças\
 
         - 🔗 cite: Indica a origem da mudança: 
             - 👉 Um link explicando o motivo da alteração
-                🧪 Exemplo
-                ```html
-                    <del cite="https://meusite.com/atualizacao">
-                        Informação antiga
-                    </del>
-                ```
+            🧪 Exemplo
+            ```html
+                <del cite="https://meusite.com/atualizacao">
+                    Informação antiga
+                </del>
+            ```
 
-                - 🎯 Quando usar
-                    - ✔ Documentação técnica
-                    - ✔ Sistemas colaborativos
-                    - ✔ Conteúdo revisado    
+            - 🎯 Quando usar
+                - ✔ Documentação técnica
+                - ✔ Sistemas colaborativos
+                - ✔ Conteúdo revisado    
                 
 - Ex.: 🧩 Uso profissional
     - E-commerce (muito comum)
