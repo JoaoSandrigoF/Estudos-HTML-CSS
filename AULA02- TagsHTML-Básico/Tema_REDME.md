@@ -66,12 +66,12 @@ Ex.:
             <p><small>- Formato correto e ano-mês-Dica <small></p>
             <p><small>- <ins">texto descritivo sobre a alteração`</ins>` <small></p>
         ```
-
-        - 🎯 Quando usar  
-         ✔ Sistemas com histórico  
-         ✔ Conteúdo atualizado  
-         ✔ Auditoria de mudanças
-
+        🎯 Quando usar   
+        ✔ Sistemas com histórico   
+        ✔ Conteúdo atualizado   
+        ✔ Auditoria de mudanças
+        
+        ---
         - 🔗 cite: Indica a origem da mudança:  
             👉 Um link explicando o motivo da alteração   
             🧪 Exemplo
@@ -81,12 +81,11 @@ Ex.:
                 </del>
             ```
 
-            - 🎯 Quando usar  
-             ✔ Documentação técnica  
-             ✔ Sistemas colaborativos  
-             ✔ Conteúdo revisado    
+        🎯 Quando usar   
+        ✔ Documentação técnica   
+        ✔ Sistemas colaborativos   
+        ✔ Conteúdo revisado    
 ---
-
 - Ex.: 🧩 Uso profissional
 
     - E-commerce (muito comum)
@@ -96,10 +95,10 @@ Ex.:
             <ins>R$ 129,90</ins>
         </p>
     ```
-    - 👉 Aqui o significado é:  
-    preço antigo → removido   
-    preço novo → inserido  
-    Atualização de conteúdo
+    👉 Aqui o significado é:   
+     preço antigo → removido   
+     preço novo → inserido   
+     Atualização de conteúdo
 
     ```html
         <p>
