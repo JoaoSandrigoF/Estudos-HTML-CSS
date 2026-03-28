@@ -31,16 +31,16 @@
         <h3>Subseção</h3>
     ```
     - ⚠️ Boas práticas
-        - ✔ Use apenas 1 <h1> por página
+        - ✔ Use apenas 1 ``<h1>`` por página
         - ✔ Siga a ordem (h1 → h2 → h3…)
         - ❌ Não use só pelo tamanho
 
 - **`<p>`:** Blocos de texto.
     - 💡 Dica: 👉 Cada ideia → um parágrafo
-        🧪 Exemplo 
-        ```html
-            <p>Estou aprendendo HTML.</p>
-        ```
+    - 🧪 Exemplo 
+    ```html
+        <p>Estou aprendendo HTML.</p>
+    ```
 ---
 - FORMATAÇÃO BÁSICA DE TEXTOS
     - **`<strong>`:** importância
