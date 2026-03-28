@@ -1,11 +1,11 @@
 # 📚 Aula01: [Estrutura Básica Página HTML]
 
 ## 🗓 Data [02/03/2026]
----
+
 ## 🎯 Objetivo da Aula
 - Compreender a estutura básica de página HTML
 - O que precisa ter na estrutura básica HTML
----
+
 ## 📖 Conteúdos Abordados
     - <html>
     - <head> 
@@ -16,13 +16,12 @@
 ## 💡 Conceitos Importantes
 
 ### **`<html>`** 
-- É o elemento raiz de um documento HTML, envolvendo todo o conteúdo, como `<head>`e `<body>`
-- Ela informa ao navegador que o arquivo é HTML5, devendo ser aberta logo após o `<!DOCTYPE html>` e fechada no final
+- É o elemento raiz de um documento HTML, envolvendo todo o conteúdo, como `<head>`e `<body>`.   
+- Ela informa ao navegador que o arquivo é HTML5, devendo ser aberta logo após o `<!DOCTYPE html>` e fechada no final.
 
 ### **`<head>`**
-- Contêiner invisível ao usuário, situado no topo do documento, que armazena metadados essenciais
+- Contêiner invisível ao usuário, situado no topo do documento, que armazena metadados essenciais   
 - Não são exibidas diretamente na página web para o usuário, mas são cruciais para o navegador e os motores de busca (SEO) processarem e interpretarem o documento.
-- Exemplo
 
 ### **`<body>`** 
 - Representa o corpo de um documento e contém todo o conteúdo visível de um site, como textos, imagens, vídeos, menus e seções. 
@@ -44,8 +43,8 @@
         Informações iniciais;
 
     - 📌 Onde usar `<header>`?
-        - No topo da página (Representa o cabeçalho principal);
-        - Dentro de outras seções (Cada bloco pode ter seu próprio header);
+        -> No topo da página (Representa o cabeçalho principal);
+        -> Dentro de outras seções (Cada bloco pode ter seu próprio header);
     
 ### **`<section>`**
 - Representa um agrupamento de conteúdo com um mesmo assunto.
@@ -54,10 +53,10 @@
 - Conteúdo com tema bem definido
 - Use `<section>` quando o conteúdo tiver um contexto claro e separado.
 
-- 📌 Características   
-    ✔ Tem tema definido   
-    ✔ Geralmente tem título (h1-h6)   
-    ✔ Organiza a página em partes
+    - 📌 Características   
+        ✔ Tem tema definido   
+        ✔ Geralmente tem título (h1-h6)   
+        ✔ Organiza a página em partes
 
 - 🧪 Exemplo básico
 ```html
@@ -72,10 +71,10 @@
 - Deve, idealmente, conter um título
 - É uma unidade completa de conteúdo
     
-- 📌 Características   
-    ✔ Independente   
-    ✔ Reutilizável   
-    ✔ Pode ser compartilhado   
+    - 📌 Características   
+        ✔ Independente   
+        ✔ Reutilizável   
+        ✔ Pode ser compartilhado   
             
 - 🧪 Exemplo básico
 ```html
