@@ -64,10 +64,10 @@
             <p><small>- <ins">texto descritivo sobre a alteração`</ins>` <small></p>
         ```
 
-        - 🎯 Quando usar\  
-            ✔ Sistemas com histórico\  
-            ✔ Conteúdo atualizado\ 
-            ✔ Auditoria de mudanças\
+        - 🎯 Quando usar  
+        ✔ Sistemas com histórico  
+        ✔ Conteúdo atualizado  
+        ✔ Auditoria de mudanças
 
         - 🔗 cite: Indica a origem da mudança: 
             - 👉 Um link explicando o motivo da alteração
