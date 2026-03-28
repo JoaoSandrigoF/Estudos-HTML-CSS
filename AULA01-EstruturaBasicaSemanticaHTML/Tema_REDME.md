@@ -1,7 +1,6 @@
 # 📚 Aula: [Estrutura Básica Página HTML]
 
-## 🗓 Data
-[02/03/2026]
+## 🗓 Data [02/03/2026]
 ---
 ## 🎯 Objetivo da Aula
 - Compreender a estutura básica de página HTML
