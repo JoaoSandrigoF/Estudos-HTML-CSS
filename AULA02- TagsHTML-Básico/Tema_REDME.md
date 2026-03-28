@@ -42,11 +42,13 @@
         <p>Estou aprendendo HTML.</p>
     ```
 ---
+
 - FORMATAÇÃO BÁSICA DE TEXTOS
     - **`<strong>`:** importância
     - **`<em>`:** Ênfase
     - **`<mark>`:** "Marcador" de texto - semelhante ao marcador de texto físico
     - **`<small>`:** Texto secundário - fica num tamanho menor
+---
 
 - PROPRIEDADES DE USO AVANÇADO `<ins>` e `<del>`
     - Essas tags não são só visuais — elas representam histórico de mudanças no conteúdo.
@@ -54,8 +56,8 @@
 
     - 🔧 Atributos específicos
 
-        - 📅 datetime: Indica quando a alteração aconteceu
-        - 🧪 Exemplo
+        - 📅 datetime: Indica quando a alteração aconteceu   
+        🧪 Exemplo
         ```html
             <ins datetime="2026-03-28"> Novo conteúdo </ins>
             <del datetime="2026-01-10"> Texto antigo </del>
@@ -65,12 +67,12 @@
         ```
 
         - 🎯 Quando usar  
-        ✔ Sistemas com histórico  
-        ✔ Conteúdo atualizado  
-        ✔ Auditoria de mudanças
+         ✔ Sistemas com histórico  
+         ✔ Conteúdo atualizado  
+         ✔ Auditoria de mudanças
 
-        - 🔗 cite: Indica a origem da mudança: 
-            - 👉 Um link explicando o motivo da alteração
+        - 🔗 cite: Indica a origem da mudança:  
+            👉 Um link explicando o motivo da alteração   
             🧪 Exemplo
             ```html
                 <del cite="https://meusite.com/atualizacao">
@@ -78,38 +80,38 @@
                 </del>
             ```
 
-            - 🎯 Quando usar
-                - ✔ Documentação técnica
-                - ✔ Sistemas colaborativos
-                - ✔ Conteúdo revisado    
-                
+            - 🎯 Quando usar  
+             ✔ Documentação técnica  
+             ✔ Sistemas colaborativos  
+             ✔ Conteúdo revisado    
+---
+
 - Ex.: 🧩 Uso profissional
+
     - E-commerce (muito comum)
-        ```html
-            <p>
-                <del>R$ 199,90</del>
-                <ins>R$ 129,90</ins>
-            </p>
-        ```
-    - 👉 Aqui o significado é:
-    - preço antigo → removido
-    - preço novo → inserido
+    ```html
+        <p>
+            <del>R$ 199,90</del>
+            <ins>R$ 129,90</ins>
+        </p>
+    ```
+    - 👉 Aqui o significado é:  
+    preço antigo → removido   
+    preço novo → inserido  
+    Atualização de conteúdo
 
-    - Atualização de conteúdo
-        ```html
-            <p>
-                A versão atual é <del>1.0</del> <ins>2.0</ins>
-            </p>
-        ```
-
+    ```html
+        <p>
+            A versão atual é <del>1.0</del> <ins>2.0</ins>
+        </p>
+    ```
     - Documentação / revisão
-        ```html
-            <p>
-                O prazo é de <del datetime="2026-01-01">5 dias</del>
-                <ins datetime="2026-03-28">3 dias</ins>
-            </p>
-        ```
-
+    ```html
+        <p>
+            O prazo é de <del datetime="2026-01-01">5 dias</del>
+            <ins datetime="2026-03-28">3 dias</ins>
+        </p>
+    ```
 ---
 ## 🛠 Exemplos Práticos
  ```html
