@@ -45,10 +45,10 @@ Ex.:
 ---
 
 - FORMATAÇÃO BÁSICA DE TEXTOS   
-`<strong>`: importância   
-`<em>`: Ênfase   
-`<mark>`: "Marcador" de texto - semelhante ao marcador de texto físico   
-`<small>`: Texto secundário - fica num tamanho menor
+    `<strong>`: importância   
+    `<em>`: Ênfase   
+    `<mark>`: "Marcador" de texto - semelhante ao marcador de texto físico   
+    `<small>`: Texto secundário - fica num tamanho menor
 ---
 
 - PROPRIEDADES DE USO AVANÇADO `<ins>` e `<del>`
@@ -60,11 +60,16 @@ Ex.:
         - 📅 datetime: Indica quando a alteração aconteceu   
         🧪 Exemplo
         ```html
-            <ins datetime="2026-03-28"> Novo conteúdo </ins>
-            <del datetime="2026-01-10"> Texto antigo </del>
+        <ins datetime="2026-03-28"> Novo conteúdo </ins>
+        <del datetime="2026-01-10"> Texto antigo </del>
 
-            <p><small>- Formato correto e ano-mês-Dica <small></p>
-            <p><small>- <ins">texto descritivo sobre a alteração`</ins>` <small></p>
+        <p>
+            <small>- Formato correto e ano-mês-Dica <small>
+        </p>
+
+        <p>
+            <small>- <ins">texto descritivo sobre a alteração`</ins>` <small>
+        </p>
         ```
         🎯 Quando usar   
         ✔ Sistemas com histórico   
@@ -76,9 +81,9 @@ Ex.:
             👉 Um link explicando o motivo da alteração   
             🧪 Exemplo
             ```html
-                <del cite="https://meusite.com/atualizacao">
-                    Informação antiga
-                </del>
+            <del cite="https://meusite.com/atualizacao">
+                Informação antiga
+            </del>
             ```
 
         🎯 Quando usar   
@@ -90,10 +95,10 @@ Ex.:
 
     - E-commerce (muito comum)
     ```html
-        <p>
-            <del>R$ 199,90</del>
-            <ins>R$ 129,90</ins>
-        </p>
+    <p>
+        <del>R$ 199,90</del>
+        <ins>R$ 129,90</ins>
+    </p>
     ```
     👉 Aqui o significado é:   
      preço antigo → removido   
@@ -101,29 +106,29 @@ Ex.:
      Atualização de conteúdo
 
     ```html
-        <p>
-            A versão atual é <del>1.0</del> <ins>2.0</ins>
-        </p>
+    <p>
+        A versão atual é <del>1.0</del> <ins>2.0</ins>
+    </p>
     ```
     - Documentação / revisão
     ```html
-        <p>
-            O prazo é de <del datetime="2026-01-01">5 dias</del>
-            <ins datetime="2026-03-28">3 dias</ins>
-        </p>
+    <p>
+        O prazo é de <del datetime="2026-01-01">5 dias</del>
+        <ins datetime="2026-03-28">3 dias</ins>
+    </p>
     ```
 ---
 ## 🛠 Exemplos Práticos
- ```html
-    <article>
-        <p>
-            <del datetime="2026-01-01" cite="/mudancas">
-             R$ 200,00
-            </del>
-
-            <ins datetime="2026-03-28" cite="/mudancas">
-                R$ 150,00
-            </ins>
-        </p>
-    </article>
-    ```
+```html
+<article>
+    <p>
+        <del datetime="2026-01-01" cite="/mudancas">
+            R$ 200,00
+        </del>
+        
+        <ins datetime="2026-03-28" cite="/mudancas">
+            R$ 150,00
+        </ins>
+    </p>
+</article>
+```

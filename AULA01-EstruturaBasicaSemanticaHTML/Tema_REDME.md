@@ -34,49 +34,51 @@
         <img src="/HTML - CSS/AULA01-EstruturaBasicaSemanticaHTML/Imagens/EstruturaBasica_header.webp" width="600">
     </p>
     - Cabeçalho de uma página ou de uma seção.
-    - 👉 É a parte introdutória, onde normalmente ficam:
-        - Título;
-        - Logo;
-        - Menu de navegação;
-        - Informações iniciais;
+    - 👉 É a parte introdutória, onde normalmente ficam:   
+        Título;   
+        Logo;   
+        Menu de navegação;   
+        Informações iniciais;
 
     - 📌 Onde usar `<header>`?
         - No topo da página (Representa o cabeçalho principal);
         - Dentro de outras seções (Cada bloco pode ter seu próprio header);
     
-    - 🧪Exemplo
-
 - **`<section>`**: Representa um agrupamento de conteúdo com um mesmo assunto.
     - É como um “bloco de assunto” dentro da página.
     - Importante sempre colocar título na section
     - Conteúdo com tema bem definido
     - Use `<section>` quando o conteúdo tiver um contexto claro e separado.
-    - 📌 Características
-        ✔ Tem tema definido
-        ✔ Geralmente tem título (h1-h6)
-        ✔ Organiza a página em partes
-    - 🧪 Exemplo básico
-        ```html
-        <section>
-            <h2>Sobre mim</h2>
-            <p>Sou estudante de programação...</p>
-        </section>
-        ```
+
+- 📌 Características   
+    ✔ Tem tema definido   
+    ✔ Geralmente tem título (h1-h6)   
+    ✔ Organiza a página em partes
+
+- 🧪 Exemplo básico
+    ```html
+    <section>
+        <h2>Sobre mim</h2>
+        <p>Sou estudante de programação...</p>
+    </section>
+    ```
 
 - **`<article>`**: é um conteúdo que faz sentido sozinho.
     - Deve, idealmente, conter um título
     - É uma unidade completa de conteúdo
-    - 📌 Características
-        ✔ Independente
-        ✔ Reutilizável
-        ✔ Pode ser compartilhado
-    - 🧪 Exemplo básico
-        ```html
-        <article>
-            <h3>Serviço de criação de sites</h3>
-            <p>Desenvolvemos sites profissionais...</p>
-        </article>
-        ```
+    
+- 📌 Características   
+    ✔ Independente   
+    ✔ Reutilizável   
+    ✔ Pode ser compartilhado   
+        
+- 🧪 Exemplo básico
+```html
+<article>
+    <h3>Serviço de criação de sites</h3>
+    <p>Desenvolvemos sites profissionais...</p>
+</article>
+```
 ---
 
 ## 🛠 Exemplo Prático
