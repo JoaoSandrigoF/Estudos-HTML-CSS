@@ -1,7 +1,6 @@
 # 📚 Aula: [TEMA DA AULA]
 
-## 🗓 Data
-[dd/mm/aaaa]
+## 🗓 Data [dd/mm/aaaa]
 
 ## 🎯 Objetivo da Aula
 - 

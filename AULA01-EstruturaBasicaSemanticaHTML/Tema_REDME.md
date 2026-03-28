@@ -1,4 +1,4 @@
-# 📚 Aula: [Estrutura Básica Página HTML]
+# 📚 Aula01: [Estrutura Básica Página HTML]
 
 ## 🗓 Data [02/03/2026]
 ---
@@ -31,7 +31,7 @@
 - **`<header>`**: É uma tag semântica utilizada para representar um contêiner para conteúdo introdutório ou um conjunto de links de navegação.
     - Ele ajuda a estruturar a página e melhora a acessibilidade e o SEO do site.
     - <p align= "center">
-        <img src="/Estudos_Solo/HTML - CSS/AULA01-EstruturaBasicaSemanticaHTML/Imagens/EstruturaBasica_header.webp" width="600">
+        <img src="/HTML - CSS/AULA01-EstruturaBasicaSemanticaHTML/Imagens/EstruturaBasica_header.webp" width="600">
     </p>
     - Cabeçalho de uma página ou de uma seção.
     - 👉 É a parte introdutória, onde normalmente ficam:
