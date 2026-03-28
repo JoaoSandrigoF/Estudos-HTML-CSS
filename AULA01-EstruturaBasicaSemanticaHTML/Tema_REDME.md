@@ -15,25 +15,28 @@
 ---
 ## 💡 Conceitos Importantes
 
-- **`<html>`**: É o elemento raiz de um documento HTML, envolvendo todo o conteúdo, como `<head>`e `<body>`
-    - Ela informa ao navegador que o arquivo é HTML5, devendo ser aberta logo após o `<!DOCTYPE html>` e fechada no final
+### **`<html>`** 
+- É o elemento raiz de um documento HTML, envolvendo todo o conteúdo, como `<head>`e `<body>`
+- Ela informa ao navegador que o arquivo é HTML5, devendo ser aberta logo após o `<!DOCTYPE html>` e fechada no final
 
-- **`<head>`**: Contêiner invisível ao usuário, situado no topo do documento, que armazena metadados essenciais
-    - Não são exibidas diretamente na página web para o usuário, mas são cruciais para o navegador e os motores de busca (SEO) processarem e interpretarem o documento.
-    - Exemplo
+### **`<head>`**
+- Contêiner invisível ao usuário, situado no topo do documento, que armazena metadados essenciais
+- Não são exibidas diretamente na página web para o usuário, mas são cruciais para o navegador e os motores de busca (SEO) processarem e interpretarem o documento.
+- Exemplo
 
-- **`<body>`**: Representa o corpo de um documento e contém todo o conteúdo visível de um site, como textos, imagens, vídeos, menus e seções. 
-    - Ela deve ser única em cada documento
+### **`<body>`** 
+- Representa o corpo de um documento e contém todo o conteúdo visível de um site, como textos, imagens, vídeos, menus e seções. 
+- Ela deve ser única em cada documento
 
-- **`<main>`**: Em HTML define o conteúdo principal e dominante do corpo do documento. É um elemento semântico do HTML5 que ajuda a indicar aos navegadores e tecnologias assistivas (como leitores de tela) qual é a parte central e única da página.
-    - Ele ajuda a estruturar a página e melhora a acessibilidade e o SEO do site.
+### **`<main>`**
+- Em HTML define o conteúdo principal e dominante do corpo do documento. É um elemento semântico do HTML5 que ajuda a indicar aos navegadores e tecnologias assistivas (como leitores de tela) qual é a parte central e única da página.
+- Ele ajuda a estruturar a página e melhora a acessibilidade e o SEO do site.
 
-- **`<header>`**: É uma tag semântica utilizada para representar um contêiner para conteúdo introdutório ou um conjunto de links de navegação.
-    - Ele ajuda a estruturar a página e melhora a acessibilidade e o SEO do site.
-    - <p align= "center">
-        <img src="/HTML - CSS/AULA01-EstruturaBasicaSemanticaHTML/Imagens/EstruturaBasica_header.webp" width="600">
-    </p>
-    - Cabeçalho de uma página ou de uma seção.
+### **`<header>`**
+- É uma tag semântica utilizada para representar um contêiner para conteúdo introdutório ou um conjunto de links de navegação.
+- Ele ajuda a estruturar a página e melhora a acessibilidade e o SEO do site.
+- Cabeçalho de uma página ou de uma seção.
+
     - 👉 É a parte introdutória, onde normalmente ficam:   
         Título;   
         Logo;   
@@ -44,11 +47,12 @@
         - No topo da página (Representa o cabeçalho principal);
         - Dentro de outras seções (Cada bloco pode ter seu próprio header);
     
-- **`<section>`**: Representa um agrupamento de conteúdo com um mesmo assunto.
-    - É como um “bloco de assunto” dentro da página.
-    - Importante sempre colocar título na section
-    - Conteúdo com tema bem definido
-    - Use `<section>` quando o conteúdo tiver um contexto claro e separado.
+### **`<section>`**
+- Representa um agrupamento de conteúdo com um mesmo assunto.
+- É como um “bloco de assunto” dentro da página.
+- Importante sempre colocar título na section
+- Conteúdo com tema bem definido
+- Use `<section>` quando o conteúdo tiver um contexto claro e separado.
 
 - 📌 Características   
     ✔ Tem tema definido   
@@ -56,22 +60,23 @@
     ✔ Organiza a página em partes
 
 - 🧪 Exemplo básico
-    ```html
-    <section>
-        <h2>Sobre mim</h2>
+```html
+<section>
+    <h2>Sobre mim</h2>
         <p>Sou estudante de programação...</p>
-    </section>
-    ```
+</section>
+```
 
-- **`<article>`**: é um conteúdo que faz sentido sozinho.
-    - Deve, idealmente, conter um título
-    - É uma unidade completa de conteúdo
+### **`<article>`**
+- É um conteúdo que faz sentido sozinho.
+- Deve, idealmente, conter um título
+- É uma unidade completa de conteúdo
     
 - 📌 Características   
     ✔ Independente   
     ✔ Reutilizável   
     ✔ Pode ser compartilhado   
-        
+            
 - 🧪 Exemplo básico
 ```html
 <article>
