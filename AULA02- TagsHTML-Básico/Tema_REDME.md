@@ -55,18 +55,19 @@
     - 🔧 Atributos específicos
 
         - 📅 datetime: Indica quando a alteração aconteceu
-            - 🧪 Exemplo
-            ```html
-                <ins datetime="2026-03-28"> Novo conteúdo </ins>
-                <del datetime="2026-01-10"> Texto antigo </del>
-            ```
-                - Formato correto e ano-mês-Dica
-                - `<ins">`texto descritivo sobre a alteração`</ins>`
+        - 🧪 Exemplo
+        ```html
+            <ins datetime="2026-03-28"> Novo conteúdo </ins>
+            <del datetime="2026-01-10"> Texto antigo </del>
 
-            - 🎯 Quando usar
-                - ✔ Sistemas com histórico
-                - ✔ Conteúdo atualizado
-                - ✔ Auditoria de mudanças
+            <p><small>- Formato correto e ano-mês-Dica <small></p>
+            <p><small>- - `<ins">`texto descritivo sobre a alteração`</ins>` <small></p>
+        ```
+
+        - 🎯 Quando usar  
+        ✔ Sistemas com histórico  
+        ✔ Conteúdo atualizado  
+        ✔ Auditoria de mudanças
 
         - 🔗 cite: Indica a origem da mudança: 
             - 👉 Um link explicando o motivo da alteração
