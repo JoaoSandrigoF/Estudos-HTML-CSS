@@ -1,0 +1,37 @@
+💻 🚀 DESAFIO: Página de Serviços de TI
+🎯 Objetivo
+
+Criar uma página simples de um profissional de TI (tipo você 👨‍💻), com:
+Menu
+Serviços
+Passo a passo
+Glossário
+
+🧱 Estrutura que você deve montar
+
+🔹 1. Cabeçalho + Navegação
+    Use: <header>, <nav>, <ul>
+        👉 Deve conter:
+        - Início
+        - Serviços
+        - Contato
+
+🔹 2. Conteúdo principal
+    Use: <main>
+
+🔹 3. Seção de Serviços
+    Use: <section> , <article>, <ul>
+        👉 Cada serviço deve ter:
+        Título (<h3>)
+        Descrição com:
+        <strong> (destaque)
+        <em> (ênfase)
+
+🔹 4. Passo a passo de atendimento
+    Use: <section>, <ol>
+
+🔹 5. Glossário de termos
+    Use: <section>, <dl>, <dt>, <dd>
+
+🔹 6. Rodapé
+    Use: <footer>

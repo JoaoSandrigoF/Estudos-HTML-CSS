@@ -1,10 +1,7 @@
 # 📚 Aula02: [Tags Textuais HTML]
-
-## 🗓 Data [28/03/2026]
-
 ---
 ## 🎯 Objetivo da Aula
-- Comprender as tags textua em HTML
+- Compreender as tags textuais em HTML
 - Compreender a forma correta de utilização de cada tag textual em HTML
 - A utilização semantica de tags textuais 
 ---
@@ -23,7 +20,7 @@
 ---
 
 ## 💡 Tags
-### **(`<h1>`até`<h6>`) Títulos:** 
+### `<h1>`até`<h6>` - Títulos: 
 - Representam hierarquia de títulos na página.   
 - Ex.:
 ```html 
@@ -31,13 +28,12 @@
 <h2>Subtítulo</h2>
 <h3>Subseção</h3>
 ```
-
 - ⚠️ Boas práticas   
     ✔ Use apenas 1 ``<h1>`` por página   
     ✔ Siga a ordem (h1 → h2 → h3…)   
     ❌ Não use só pelo tamanho
 
-### **`<p>`:** 
+### `<p>`: 
 - Blocos de texto.   
 - 💡 Dica: 👉 Cada ideia → um parágrafo   
 🧪 Exemplo 
@@ -60,7 +56,7 @@
 - 🔧 Atributos específicos
 
     - 📅 datetime: Indica quando a alteração aconteceu   
-    - 🧪 Exemplo
+    🧪 Exemplo
     ```html
     <ins datetime="2026-03-28"> Novo conteúdo </ins>
     <del datetime="2026-01-10"> Texto antigo </del>
@@ -74,7 +70,7 @@
     </p>
     ```
     
-    - 🎯 Quando usar   
+    🎯 Quando usar   
         ✔ Sistemas com histórico   
         ✔ Conteúdo atualizado   
         ✔ Auditoria de mudanças
@@ -89,12 +85,13 @@
         </del>
         ```
 
-    - 🎯 Quando usar   
+    🎯 Quando usar   
         ✔ Documentação técnica   
         ✔ Sistemas colaborativos   
         ✔ Conteúdo revisado    
 ---
-- Ex.: 🧩 Uso profissional
+
+### Ex.: 🧩 Uso profissional
 
 - E-commerce (muito comum)
 ```html
@@ -107,7 +104,7 @@
 preço antigo → removido   
 preço novo → inserido   
     
-Atualização de conteúdo
+- Atualização de conteúdo
 ```html
 <p>
     A versão atual é <del>1.0</del> <ins>2.0</ins>
